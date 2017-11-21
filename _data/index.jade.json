@@ -1,0 +1,34 @@
+{
+  "title": "Create Your Signature",
+  "mainBlock" : {
+    "sign" : "Jane Doe",
+    "text" : "Easy way to create your signature or initials type your name or select an option from the bottom to create your signature or initials."
+  },
+  "blocks": [
+    {
+      "image": "draw",
+      "title": "draw"
+    },
+    {
+      "image": "upload",
+      "title": "upload"
+    },
+    {
+      "image": "camera",
+      "title": "use camera"
+    },
+    {
+      "image": "qr-mobile",
+      "title": "VIA QR CODE",
+      "label": "Fast"
+    },
+    {
+      "image": "sms-mobile",
+      "title": "USE MOBILE VIA SMS"
+    },
+    {
+      "image": "email-mobile",
+      "title": "USE MOBILE VIA EMAIL"
+    }
+  ]
+}

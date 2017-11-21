@@ -1,0 +1,15 @@
+.btn {
+  height: 32px;
+  cursor: pointer;
+  color: #ffffff;
+  text-align: center;
+  padding: 8px 34px;
+  font-weight: bold;
+  text-transform: uppercase;
+
+  &--primary {
+    border-radius: 3px;
+    background-image: linear-gradient(rgba(#ff9000, .8), #ff9000);
+    border: solid 1px #fd7722;
+  }
+}

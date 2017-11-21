@@ -1,0 +1,31 @@
+div(class="popup")
+    div(class="popup__header")
+        div(class="popup__icon")
+            img(src="assets/images/icons/gallery-signature.svg")
+        div(class="popup__title")=title
+        img(src="assets/images/icons/shape.svg", class="popup__close")
+    div(class="popup__body")
+        div(class="action-block action-block--type")
+            div(class="action-block__ribbon")
+                span Easy
+            div(class="action-block__image")
+                img(src="assets/images/icons/type.svg")
+                span type
+            div
+                div(class="action-block__text")
+                    div=mainBlock.text
+                    div(class="action-block__form")
+                        input(type="text")
+                        button(class="btn btn--primary") Sign
+            div(class="action-block__signature")
+                span=mainBlock.sign
+        - for (var x = 0; x < blocks.length; x++)
+            div(class="action-block")
+                if blocks[x].label
+                    div(class="action-block__ribbon")
+                        span=blocks[x].label
+                div(class="action-block__image")
+                    img(src="assets/images/icons/" + blocks[x].image + ".svg")
+                div
+                    div(class="action-block__title")= blocks[x].title
+                    div(class="action-block__text") Lorem Ipsum is simply dummy text of the printing and typesetting industry.
