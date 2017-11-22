@@ -1,34 +1,40 @@
 {
   "title": "Create Your Signature",
-  "mainBlock" : {
-    "sign" : "Jane Doe",
-    "text" : "Easy way to create your signature or initials type your name or select an option from the bottom to create your signature or initials."
+  "mainBlock": {
+    "sign": "Jane Doe",
+    "text": "Easy way to create your signature or initials type your name or select an option from the bottom to create your signature or initials."
   },
   "blocks": [
     {
       "image": "draw",
-      "title": "draw"
+      "title": "draw",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     },
     {
       "image": "upload",
-      "title": "upload"
+      "title": "upload",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     },
     {
       "image": "camera",
-      "title": "use camera"
+      "title": "use camera",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     },
     {
       "image": "qr-mobile",
       "title": "VIA QR CODE",
-      "label": "Fast"
+      "label": "Fast",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     },
     {
       "image": "sms-mobile",
-      "title": "USE MOBILE VIA SMS"
+      "title": "USE MOBILE VIA SMS",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     },
     {
       "image": "email-mobile",
-      "title": "USE MOBILE VIA EMAIL"
+      "title": "USE MOBILE VIA EMAIL",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     }
   ]
 }

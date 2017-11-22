@@ -10,6 +10,10 @@ Website is located http://smart-coding.pro/
 ### This project uses...
 
 ### To run
-- Execute `npm install` from this directory to install dev dependencies.
+- Execute `gulp install` from this directory to install dev dependencies.
 - Execute `npm start` from this directory to run app
+
+### Base gulp commands
+- `npm build`
+- `npm watch`
 
