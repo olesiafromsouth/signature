@@ -41,6 +41,12 @@ gulp.task('jade', function () {
 });
 
 
+gulp.task('favicon', function () {
+    return gulp.src('favicon.ico')
+        .pipe(gulp.dest(settings.publicDir));
+});
+
+
 gulp.task('images', function () {
     return gulp.src(settings.imageDir + '/**/*')
         .pipe(gulp.dest(settings.publicDir + settings.imageDir));
@@ -62,7 +68,7 @@ gulp.task('jade-rebuild', ['jade'], function () {
 /**
  * Wait for jade and sass tasks, then launch the browser-sync Server
  */
-gulp.task('build', ['sass', 'jade', 'images', 'js']);
+gulp.task('build', ['sass', 'jade', 'images', 'favicon', 'js']);
 
 
 /**
